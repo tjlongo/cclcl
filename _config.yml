@@ -19,8 +19,9 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Center for Cultivation of Local Civic Leadership
-subtitle: <br/>Reinventing Town Hall for Maximum Diversity, Inclusion and Equity
+subtitle: Leadership At Scale for a Reinvigorated Town Hall
 email: contact@cclcl.org
+logo: cclcl_logo_sm.png
 description: >- # this means to ignore newlines until "baseurl:"
   local government civics choice kindness diversity equity inclusion purpose
   critical thinking continual improvement activism
@@ -121,10 +122,13 @@ collections:
 
 # single author blogs may want to disable showing the same author everywhere
 show:
-  authors:          true                      # single author blogs may want to disable showing the same author everywhere
+  authors:          false                     # single author blogs may want to disable showing the same author everywhere
   post_authors:     true                      # you may still want to show the author(s) at the bottom of posts
   page_authors:     true                      # you may still want to show the author(s) for pages
   project_authors:  true                      # you may still want to show the author(s) for projects
+  contact:          false                     #
+  search:           false                     # for the gem's search, does not apply to algolio
+  newsletter:       false                     #
 
 ###################
 # Jekyll Archives - https://github.com/jekyll/jekyll-archives
@@ -159,3 +163,9 @@ collections:
 # various miscellaneous settings
 include_summary:    [projects]                # collections for which to show the summary in the header
 exclude_dates:      [people, pages]           # collections for which to not show dates in the header
+
+# algolia
+algolia:
+  application_id: 'D67LKHBXG3'
+  index_name: 'cclcl'
+  search_only_api_key: '6ef12b2bf8780e5a6d60e09545ac3f40'

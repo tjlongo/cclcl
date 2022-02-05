@@ -1,8 +1,8 @@
 ---
 layout:               home
 body_class:           home
-title:                "Center for Cultivation of Local Civic Leadership"
-subtitle:             My overridden site.tagline
+title:                "Welcome and Introduction"
+subtitle:             " "
 description:          "The CCLCL is dedicated to reinvigorating our Town Halls, by applying principles of [seven things here], in order to regain balance with big government."
 banner:
   url:                "https://mm.tt/map/2141466006?t=SNk6b7rBhP"
@@ -19,8 +19,5 @@ images:
 <!-- Banner -->
 {%-include responsive_banner.html-%}
 
-<!-- Section - Features -->
-{%-include features.html section_title="Cool Features"-%}
-
 <!-- Section - Articles -->
-{%-include articles.html section_title="Neat Articles"-%}
+{%-include articles.html section_title="Articles"-%}

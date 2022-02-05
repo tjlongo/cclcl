@@ -2,12 +2,15 @@ sidebar:
   - url:        /
     title:      Home
     identifier: home
+  - url:        /search
+    title:      Search
+    identifier: search
   - url:        /about
     title:      About
     identifier: about
-  - url:        /elements
-    title:      Elements
-    identifier: elements
+#  - url:        /elements
+#    title:      Elements
+#    identifier: elements
   - url:        /posts
     title:      Recent Posts
     identifier: posts
@@ -23,9 +26,9 @@ sidebar:
   - url:        /projects
     title:      Projects
     identifier: projects
-  - url:        /people
-    title:      Authors
-    identifier: authors
-  - url:        /signin
-    title:      Sign In
-    identifier: signin
+#  - url:        /people
+#    title:      Authors
+#    identifier: authors
+#  - url:        /signin
+#    title:      Sign In
+#    identifier: signin
